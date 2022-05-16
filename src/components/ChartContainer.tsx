@@ -28,8 +28,9 @@ function ChartContainer({ sensorNumber }: { sensorNumber: number }) {
   return (
     <div className={styles.container}>
       <header className={styles.header}>
+        <h3 className={styles.title}>Sensor: #{sensor}</h3>
         <div className={styles.selection}>
-          <label htmlFor='sensor'>Sensor:</label>
+          <label htmlFor='sensor'>Sensor: </label>
           <select
             name='sensor'
             value={sensor}
@@ -39,7 +40,7 @@ function ChartContainer({ sensorNumber }: { sensorNumber: number }) {
           </select>
         </div>
         <div className={styles.selection}>
-          <label htmlFor='intervals'>Choose an interval:</label>
+          <label htmlFor='intervals'>Interval: </label>
           <select
             name='intervals'
             value={interval}
@@ -54,7 +55,7 @@ function ChartContainer({ sensorNumber }: { sensorNumber: number }) {
           </select>
         </div>
         <div className={styles.selection}>
-          <label htmlFor='since'>Data since:</label>
+          <label htmlFor='since'>Data since: </label>
           <select
             name='since'
             value={since}

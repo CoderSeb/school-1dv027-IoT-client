@@ -5,11 +5,13 @@ function App() {
   return (
     <div className='App'>
       <Header />
-      <div>
-        <ChartContainer sensorNumber={1} />
-      </div>
-      <div>
-        <ChartContainer sensorNumber={2} />
+      <div className='mainContainer'>
+        <div>
+          <ChartContainer sensorNumber={1} />
+        </div>
+        <div>
+          <ChartContainer sensorNumber={2} />
+        </div>
       </div>
     </div>
   )
