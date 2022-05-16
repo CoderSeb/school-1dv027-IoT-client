@@ -11,7 +11,8 @@ function Header() {
         <a
           className={styles.instaLink}
           href='https://www.instagram.com/otto.the.ballpython/'
-          target='_blank'>
+          target='_blank'
+          rel='noreferrer'>
           <img src='./img/IG.png' alt='Instagram logo' />
           <p>@otto.the.ballpython</p>
         </a>

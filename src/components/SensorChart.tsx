@@ -70,7 +70,7 @@ function SensorChart({
     if (!loaded && series.length > 0) {
       setLoaded(true)
     }
-  }, [series])
+  }, [series, loaded])
 
   return (
     <div className={styles.container}>
