@@ -74,9 +74,7 @@ function SensorChart({
 
   return (
     <div className={styles.container}>
-      {loaded && (
-        <Chart options={options} series={series} type='area' height={800} />
-      )}
+      {loaded && <Chart options={options} series={series} type='area' />}
     </div>
   )
 }
