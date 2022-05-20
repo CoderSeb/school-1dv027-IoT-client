@@ -13,6 +13,7 @@ function App() {
           <ChartContainer sensorNumber={2} />
         </div>
       </div>
+      <p className='copyFooter'>&copy; Sebastian Åkerblom 2022</p>
     </div>
   )
 }
